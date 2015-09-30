@@ -13,6 +13,10 @@
 		3295C9AD1BBB730000E5D128 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3295C9AC1BBB730000E5D128 /* Images.xcassets */; };
 		3295C9B01BBB730000E5D128 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3295C9AE1BBB730000E5D128 /* LaunchScreen.xib */; };
 		3295C9BC1BBB730000E5D128 /* TimeLineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3295C9BB1BBB730000E5D128 /* TimeLineTests.swift */; };
+		3295C9C61BBB7E0600E5D128 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3295C9C51BBB7E0600E5D128 /* ViewController2.swift */; };
+		3295C9C81BBB9AA600E5D128 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3295C9C71BBB9AA600E5D128 /* Record.swift */; };
+		3295C9CB1BBBA9DE00E5D128 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3295C9C91BBBA9DE00E5D128 /* TableViewCell.swift */; };
+		3295C9CE1BBBBD7800E5D128 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3295C9CD1BBBBD7800E5D128 /* CustomLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		3295C9B51BBB730000E5D128 /* TimeLineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeLineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3295C9BA1BBB730000E5D128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3295C9BB1BBB730000E5D128 /* TimeLineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineTests.swift; sourceTree = "<group>"; };
+		3295C9C51BBB7E0600E5D128 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		3295C9C71BBB9AA600E5D128 /* Record.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		3295C9C91BBBA9DE00E5D128 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		3295C9CD1BBBBD7800E5D128 /* CustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +87,14 @@
 			children = (
 				3295C9A51BBB730000E5D128 /* AppDelegate.swift */,
 				3295C9A71BBB730000E5D128 /* ViewController.swift */,
+				3295C9C71BBB9AA600E5D128 /* Record.swift */,
+				3295C9C91BBBA9DE00E5D128 /* TableViewCell.swift */,
 				3295C9A91BBB730000E5D128 /* Main.storyboard */,
+				3295C9C51BBB7E0600E5D128 /* ViewController2.swift */,
 				3295C9AC1BBB730000E5D128 /* Images.xcassets */,
 				3295C9AE1BBB730000E5D128 /* LaunchScreen.xib */,
 				3295C9A31BBB730000E5D128 /* Supporting Files */,
+				3295C9CD1BBBBD7800E5D128 /* CustomLabel.swift */,
 			);
 			path = TimeLine;
 			sourceTree = "<group>";
@@ -212,8 +224,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3295C9CB1BBBA9DE00E5D128 /* TableViewCell.swift in Sources */,
+				3295C9CE1BBBBD7800E5D128 /* CustomLabel.swift in Sources */,
 				3295C9A81BBB730000E5D128 /* ViewController.swift in Sources */,
 				3295C9A61BBB730000E5D128 /* AppDelegate.swift in Sources */,
+				3295C9C81BBB9AA600E5D128 /* Record.swift in Sources */,
+				3295C9C61BBB7E0600E5D128 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
