@@ -17,6 +17,8 @@
 		3295C9C81BBB9AA600E5D128 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3295C9C71BBB9AA600E5D128 /* Record.swift */; };
 		3295C9CB1BBBA9DE00E5D128 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3295C9C91BBBA9DE00E5D128 /* TableViewCell.swift */; };
 		3295C9CE1BBBBD7800E5D128 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3295C9CD1BBBBD7800E5D128 /* CustomLabel.swift */; };
+		3295CA351BBBCC4F00E5D128 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3295CA331BBBCC4F00E5D128 /* Model.xcdatamodeld */; };
+		3295CA371BBBCCAC00E5D128 /* CoreDataUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3295CA361BBBCCAC00E5D128 /* CoreDataUtility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		3295C9C71BBB9AA600E5D128 /* Record.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
 		3295C9C91BBBA9DE00E5D128 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		3295C9CD1BBBBD7800E5D128 /* CustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		3295CA341BBBCC4F00E5D128 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		3295CA361BBBCCAC00E5D128 /* CoreDataUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataUtility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,7 @@
 		3295C9971BBB730000E5D128 = {
 			isa = PBXGroup;
 			children = (
+				3295CA331BBBCC4F00E5D128 /* Model.xcdatamodeld */,
 				3295C9A21BBB730000E5D128 /* TimeLine */,
 				3295C9B81BBB730000E5D128 /* TimeLineTests */,
 				3295C9A11BBB730000E5D128 /* Products */,
@@ -95,6 +100,7 @@
 				3295C9AE1BBB730000E5D128 /* LaunchScreen.xib */,
 				3295C9A31BBB730000E5D128 /* Supporting Files */,
 				3295C9CD1BBBBD7800E5D128 /* CustomLabel.swift */,
+				3295CA361BBBCCAC00E5D128 /* CoreDataUtility.swift */,
 			);
 			path = TimeLine;
 			sourceTree = "<group>";
@@ -227,9 +233,11 @@
 				3295C9CB1BBBA9DE00E5D128 /* TableViewCell.swift in Sources */,
 				3295C9CE1BBBBD7800E5D128 /* CustomLabel.swift in Sources */,
 				3295C9A81BBB730000E5D128 /* ViewController.swift in Sources */,
+				3295CA351BBBCC4F00E5D128 /* Model.xcdatamodeld in Sources */,
 				3295C9A61BBB730000E5D128 /* AppDelegate.swift in Sources */,
 				3295C9C81BBB9AA600E5D128 /* Record.swift in Sources */,
 				3295C9C61BBB7E0600E5D128 /* ViewController2.swift in Sources */,
+				3295CA371BBBCCAC00E5D128 /* CoreDataUtility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +443,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3295CA331BBBCC4F00E5D128 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3295CA341BBBCC4F00E5D128 /* Model.xcdatamodel */,
+			);
+			currentVersion = 3295CA341BBBCC4F00E5D128 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3295C9981BBB730000E5D128 /* Project object */;
 }

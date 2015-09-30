@@ -27,6 +27,11 @@ class Record: NSObject {
     var text = ""
     var feeling = 0;
     
+    func save()
+    {
+        
+    }
+    
     static func random()->Record
     {
         var record = Record()
